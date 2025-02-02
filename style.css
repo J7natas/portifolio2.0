@@ -197,3 +197,330 @@ footer a{
     margin-left: 10px;
 }
 
+@media screen and (max-width:1195px) {
+   #habilidades{
+    max-width: 70%;
+   }
+}
+
+@media screen and (max-width:1077px) {
+
+    header {
+        width: 700px;
+        height: 50px;
+        margin: auto;
+    }
+
+    #front img {
+        width: 300px;
+        margin-top: 8%;
+        margin-right: 10%;
+    }
+
+    #banner {
+        background-size: 100%;
+        height: 50%;
+    }
+
+    #description h1 {
+        font-size: 50px;
+    }
+
+    #description p {
+        font-size: 15px;
+    }
+
+    footer img {
+        margin: 30px 0px 0px 80px;
+        width: 30px;
+        height: 34px;
+        padding-top: 15px;
+    }
+ }
+
+ @media screen and (max-width:1045px) {
+
+    header {
+        width: 650px;
+        height: 50px;
+        margin: auto;
+    }
+
+    #front img {
+        width: 270px;
+        margin-top: 8%;
+        margin-right: 10%;
+    }
+
+    .border-left {
+        font-size: 16px;
+    }
+
+    .border-right {
+        font-size: 16px;
+    }
+
+    #habilidades h2 {
+       font-size: 20px;
+    }
+
+    .projetos-banner {
+        width: 210px;
+        height: 280px;
+    }
+
+    .projetos-banner img {
+        width: 195px;
+    }
+
+    .projetos-banner h3 {
+        font-size: 13px;
+    }
+
+    .projetos-banner button {
+        width: 90px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    footer {
+        width: 100%;
+        height: 35vh;
+    }
+
+ }
+
+    @media screen and (max-width: 945px){
+
+        #front img {
+            width: 250px;
+        }
+
+        #description h1 {
+            font-size: 40px;
+        }
+
+        #description p {
+            font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width:885px){
+        #front img {
+            width: 240px;
+        }
+
+        header {
+            width: 640px;
+            height: 40px;
+        }
+
+        li {
+            margin-top: 12px;
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width:821px){
+
+        header {
+            width: 600px;
+            height: 40px;
+        }
+
+        #front img {
+            width: 25%;
+        }
+
+        #description h1 {
+            font-size: 35px;
+        }
+
+        #description p {
+            font-size: 10px;
+        }
+
+        .projetos-banner {
+            width: 190px;
+            height: 270px;
+        }
+
+        .projetos-banner img {
+            width: 180px;
+        }
+
+        footer img {
+            margin: 30px 0px 0px 80px;
+            width: 27px;
+            height: 32px;
+            padding-top: 15px;
+        }
+
+        footer {
+            width: 100%;
+            height: 20vh;
+        }
+    }
+    
+    @media screen and (max-width:720px) {
+        header {
+            width: 500px;
+        }
+
+        .border-left,
+        .border-right {
+            font-size: 14px;
+        }
+
+        #habilidades h2 {
+            font-size: 17px;
+        }
+
+        .projetos-banner {
+            width: 170px;
+            height: 250px;
+        }
+
+        .projetos-banner img {
+            width: 160px;
+        }
+
+        .projetos-banner h3 {
+            font-size: 12px;
+        }
+
+        .projetos-banner p {
+            font-size: 9px;
+        }
+
+        .projetos-banner button {
+            width: 85px;
+            height: 20px;
+            font-size: 11px;
+        }
+
+        footer img {
+            width: 25px;
+            height: 30px;
+        }
+
+        footer a {
+           font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width:540px){
+        header {
+            display: none;
+        }
+
+        #description h1 {
+            font-size: 30px;
+        }
+
+        #description p {
+            font-size: 8px;
+        }
+
+        .border-left, .border-right {
+            font-size: 13px;
+        }
+
+        #habilidades {
+            max-width: 80%;
+        }
+
+        #habilidades h2 {
+            font-size: 15px;
+        }
+
+        #projetos-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .projetos-banner {
+            width: 260px;
+            height: 300px;
+            margin: 20px auto;
+        }
+
+        .projetos-banner img {
+            width: 245px;
+        }
+
+        .projetos-banner p {
+            font-size: 10px;
+        }
+        .projetos-banner button {
+            width: 90px;
+            height: 25px;
+            font-size: 13px;
+        }
+
+        footer {
+            width: 100%;
+            height: 30vh;
+        }
+
+    }
+
+    @media screen and (max-width:430px) {
+        #description h1 {
+            font-size: 25px;
+        }
+
+        #description p {
+            font-size: 7px;
+        }
+
+        .border-left, .border-right {
+            font-size: 12px;
+        }
+
+        #habilidades h2 {
+            font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width:414px) {
+        #habilidades h2 {
+            font-size: 10px;
+        }
+    }
+
+    @media screen and (max-width:370px) {
+        #description h1 {
+            font-size: 20px;
+        }
+
+        #description p {
+            font-size: 6px;
+        }
+
+        .border-left, .border-right {
+            font-size: 10px;
+        }
+
+        #habilidades h2 {
+            font-size: 8px;
+        }
+
+        .projetos-banner {
+            width: 250px;
+            height: 310px;
+            margin: 20px auto;
+        }
+
+        .projetos-banner img {
+            width: 235px;
+        }
+    }
+
+
+
+
+
+
