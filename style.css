@@ -468,6 +468,16 @@ footer a{
     }
 
     @media screen and (max-width:430px) {
+
+        #front {
+            height: 20vh;
+        }
+
+        #front img {
+            width: 25%;
+            margin-top: 13%;
+        }
+
         #description h1 {
             font-size: 25px;
         }
